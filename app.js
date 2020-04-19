@@ -4,11 +4,6 @@ var parallaxIt = function(e, target, parent, movement) {
     var x = (relX - parent.offsetWidth / 2) / parent.offsetWidth * movement
     var y = (relY - parent.offsetHeight / 2) / parent.offsetHeight * movement
     
-    // gsap.to(target, 1, {
-    //   x: (relX - parent.offsetWidth / 2) / parent.offsetWidth * movement,
-    //   y: (relY - parent.offsetHeight / 2) / parent.offsetHeight * movement
-    // })
-    
     target.style.setProperty('--parallax-x', x+"px");
     target.style.setProperty('--parallax-y', y+"px");
   }
