@@ -1,5 +1,4 @@
-# Parallax With CSS Variable
-* Ex : https://codepen.io/benoitdelorme/pen/JjYRPgJ
+# Parallax it
+Parallax effect using CSS Variables
 
-# TODO
-* I will make a lib about that
+* Ex : https://codepen.io/benoitdelorme/pen/JjYRPgJ
